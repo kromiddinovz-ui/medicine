@@ -1,0 +1,860 @@
+{
+  "medicines": [
+    {
+      "id": "2",
+      "name": "Amoksitsillin",
+      "category": "Antibiotik",
+      "form": "Kapsula (250 mg)",
+      "manufacturer": "Medikament",
+      "price": 25000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Bakterial infeksiyalarni davolash uchun mo'ljallangan keng ta'sir doirasidagi antibiotik.",
+      "sideEffects": [
+        "Qorin og'rig'i",
+        "Bosh aylanishi",
+        "Ich ketishi"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Akvadrim (D3 vitamini)",
+      "category": "Vitaminlar",
+      "form": "Tomchi",
+      "manufacturer": "Farmakon",
+      "price": 32000,
+      "inStock": false,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "D vitamini tanqisligining oldini olish va davolash uchun.",
+      "sideEffects": [
+        "Kamdan-kam hollarda allergik reaksiyalar"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ibuprofen",
+      "category": "Og'riq qoldiruvchi va shamollashga qarshi",
+      "form": "Tabletka (400 mg)",
+      "manufacturer": "Nobel Pharma",
+      "price": 12000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Bo'g'im va mushak og'riqlarini kamaytirish hamda isitmani tushirish uchun.",
+      "sideEffects": [
+        "Oshqozon bezovtaligi",
+        "Javob reaksiyasi"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Aspirin (Asetilsalitsil kislotasi)",
+      "category": "Og'riq qoldiruvchi",
+      "form": "Tabletka (500 mg)",
+      "manufacturer": "Bayer",
+      "price": 8000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Qonni suyultirish va yallig'lanishni qaytarish uchun ishlatiladi.",
+      "sideEffects": [
+        "Oshqozonda yaralar",
+        "Qon ketish xavfi"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sitramon",
+      "category": "Og'riq qoldiruvchi",
+      "form": "Tabletka",
+      "manufacturer": "UzPharm",
+      "price": 4000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Bosh og'rig'i va shamollash belgilari uchun kombinatsiyalangan dori.",
+      "sideEffects": [
+        "Qon bosimi oshishi",
+        "Uyqusizlik"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "No-Shpa (Drotaverin)",
+      "category": "Spazmolitik",
+      "form": "Tabletka (40 mg)",
+      "manufacturer": "Sanofi",
+      "price": 18000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Oshqozon-ichak va mushak spazmlarini (sanchiqlarni) yo'qotadi.",
+      "sideEffects": [
+        "Bosh aylanishi",
+        "Yurak urishi tezlashishi"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Mezim Forte",
+      "category": "Fermentlar",
+      "form": "Tabletka",
+      "manufacturer": "Berlin-Chemie",
+      "price": 28000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Ovqat hazm qilish jarayonini yaxshilaydi.",
+      "sideEffects": [
+        "Allergik reaksiya"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Kreon 10000",
+      "category": "Fermentlar",
+      "form": "Kapsula",
+      "manufacturer": "Abbott",
+      "price": 65000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Me'da osti bezi fermentlari tanqisligida ovqat hazm qilishni normallashtiradi.",
+      "sideEffects": [
+        "Ich qotishi yoki ich ketishi"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Loperamid",
+      "category": "Ich ketishga qarshi",
+      "form": "Kapsula (2 mg)",
+      "manufacturer": "Stada",
+      "price": 7000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "O'tkir va surunkali ich ketishni to'xtatadi.",
+      "sideEffects": [
+        "Og'iz qurishi",
+        "Qorin dam bo'lishi"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Smekta",
+      "category": "Adsorbent",
+      "form": "Poroshok (paketik)",
+      "manufacturer": "Ipsen",
+      "price": 45000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Zaharlanish va diarreriya paytida toksinlarni haydaydi.",
+      "sideEffects": [
+        "Ich qotishi"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Faollashtirilgan kumir",
+      "category": "Adsorbent",
+      "form": "Tabletka (250 mg)",
+      "manufacturer": "UzPharm",
+      "price": 2000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Zaharlanishda vosita sifatida toksinlarni o'ziga shimib oladi.",
+      "sideEffects": [
+        "Najas qorayishi"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Suprastin",
+      "category": "Allergiyaga qarshi",
+      "form": "Tabletka (25 mg)",
+      "manufacturer": "Egis",
+      "price": 22000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Allergik reaksiyalar va qichishishni yo'qotadi.",
+      "sideEffects": [
+        "Uyquchanlik",
+        "Holsizlik"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Zirtek (Setirizin)",
+      "category": "Allergiyaga qarshi",
+      "form": "Tomchi / Tabletka",
+      "manufacturer": "UCB",
+      "price": 42000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Mavsumiy va surunkali allergik rhinit hamda allergiyalarda qo'llaniladi.",
+      "sideEffects": [
+        "Bosh og'rig'i",
+        "Uyquchanlik"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Loratadin",
+      "category": "Allergiyaga qarshi",
+      "form": "Tabletka (10 mg)",
+      "manufacturer": "Ozon",
+      "price": 9000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Uyqu keltirmaydigan allergiyaga qarshi vosita.",
+      "sideEffects": [
+        "Og'iz qurishi"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Mukaltin",
+      "category": "Balg'am ko'chiruvchi",
+      "form": "Tabletka (50 mg)",
+      "manufacturer": "Vitamini",
+      "price": 3000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Yo'tal paytida balg'amni yumshatadi va ko'chiradi.",
+      "sideEffects": [
+        "Ko'ngil aynishi"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Ambroksol",
+      "category": "Balg'am ko'chiruvchi",
+      "form": "Sirop / Tabletka",
+      "manufacturer": "Teva",
+      "price": 14000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Nafas yo'llari kasalliklarida balg'am ajralishini engillashtiradi.",
+      "sideEffects": [
+        "Jig'ildidon qaynashi"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "ATS-Akut (Asetilsistein)",
+      "category": "Balg'am ko'chiruvchi",
+      "form": "Shildiroq tabletka (600 mg)",
+      "manufacturer": "Sandoz",
+      "price": 38000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Quyuq balg'amni suyultirib, yo'talni yengillatadi.",
+      "sideEffects": [
+        "Bronxospazm (juda kam)"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Nafitizin",
+      "category": "Burun tomchisi",
+      "form": "Tomchi 0.1%",
+      "manufacturer": "Lekrasras",
+      "price": 5000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Burun bitganda qon tomirlarni toraytirib, nafas olishni osonlashtiradi.",
+      "sideEffects": [
+        "O'rganib qolish",
+        "Burun shilliq qavati qurishi"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Ksilometazolin (Snoop)",
+      "category": "Burun spreyi",
+      "form": "Sprey 0.1%",
+      "manufacturer": "Stada",
+      "price": 24000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Dengiz suvi bilan boyitilgan burun bitishiga qarshi sprey.",
+      "sideEffects": [
+        "Burun achishishi"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Miramistin",
+      "category": "Antiseptik",
+      "form": "Eritma (Sprey)",
+      "manufacturer": "InfaMed",
+      "price": 48000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Tomoq og'rig'i, jarohatlar va infeksiyalarga qarshi keng ta'sirli antiseptik.",
+      "sideEffects": [
+        "Yengil achishish"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Geksoral",
+      "category": "Tomoq uchun antiseptik",
+      "form": "Sprey",
+      "manufacturer": "JNJ",
+      "price": 52000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Tomoq yallig'lanishi va angina davida mikroblarga qarshi ishlatiladi.",
+      "sideEffects": [
+        "Ta'm bilish o'zgarishi"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Faringosept",
+      "category": "Tomoq uchun tabletka",
+      "form": "Shimiladigan tabletka",
+      "manufacturer": "Terapia",
+      "price": 20000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Tomoq og'rig'i va og'iz bo'shlig'i infeksiyalarida mahalliy antiseptik.",
+      "sideEffects": [
+        "Allergik toshmalar"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Omeprazol",
+      "category": "Oshqozon preparati",
+      "form": "Kapsula (20 mg)",
+      "manufacturer": "Dr. Reddy's",
+      "price": 11000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Oshqozon kislotaliligini kamaytiradi, yara va gastritda qo'llaniladi.",
+      "sideEffects": [
+        "Bosh og'rig'i",
+        "Ich qotishi"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Renni",
+      "category": "Antatsid",
+      "form": "Chaynash tabletkasi",
+      "manufacturer": "Bayer",
+      "price": 27000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Jig'ildidon qaynashi va oshqozondagi achishishni tezda yo'qotadi.",
+      "sideEffects": [
+        "Kamdan-kam hollarda najas o'zgarishi"
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Almagel",
+      "category": "Antatsid",
+      "form": "Suspenziya",
+      "manufacturer": "Sopharma",
+      "price": 31000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Oshqozon devorini qoplaydi va oshqozon og'rig'i hamda kislotani neytrallaydi.",
+      "sideEffects": [
+        "Ta'm bilishning buzilishi"
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Kardiomagnil",
+      "category": "Yurak-qon tomir",
+      "form": "Tabletka (75 mg)",
+      "manufacturer": "Takeda",
+      "price": 36000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Tromb hosil bo'lishining oldini oladi va yurak kasalliklarida qo'llaniladi.",
+      "sideEffects": [
+        "Oshqozon qonashi xavfi"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Valeriana",
+      "category": "Tinchlantiruvchi",
+      "form": "Tabletka (20 mg)",
+      "manufacturer": "UzPharm",
+      "price": 4000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "O'simlik asosidagi tinchlantiruvchi va uyquni yaxshilovchi vosita.",
+      "sideEffects": [
+        "Lanjlik"
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Novopassit",
+      "category": "Tinchlantiruvchi",
+      "form": "Sirop / Tabletka",
+      "manufacturer": "Teva",
+      "price": 46000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Stress, tashvish va yengil uyqusizlik holatlarida yordam beradi.",
+      "sideEffects": [
+        "Tez charchash"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Gipoten (Enalapril)",
+      "category": "Qon bosimiga qarshi",
+      "form": "Tabletka (10 mg)",
+      "manufacturer": "KRKA",
+      "price": 15000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Yuqori qon bosimini tushirish va normallashtirish uchun.",
+      "sideEffects": [
+        "Quruq yo'tal",
+        "Bosh aylanishi"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Amlodipin",
+      "category": "Qon bosimiga qarshi",
+      "form": "Tabletka (5 mg)",
+      "manufacturer": "Zentiva",
+      "price": 13000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Arterial gipertenziya va stenokardiyani davolashda ishlatiladi.",
+      "sideEffects": [
+        "Oyoq shishishi"
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Magne B6",
+      "category": "Vitamin va minerallar",
+      "form": "Tabletka",
+      "manufacturer": "Sanofi",
+      "price": 75000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Magniy tanqisligini to'ldiradi, asab tizimi faoliyatini yaxshilaydi.",
+      "sideEffects": [
+        "Ich ketishi"
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Askorbin kislotasi (C vitamini)",
+      "category": "Vitaminlar",
+      "form": "Drajje",
+      "manufacturer": "UzPharm",
+      "price": 3000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Immunitetni oshiradi va shamollashning oldini oladi.",
+      "sideEffects": [
+        "Allergik reaksiya"
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Aevit",
+      "category": "Vitaminlar",
+      "form": "Kapsula",
+      "manufacturer": "Malkom",
+      "price": 12000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "A va E vitaminlari majmuasi, teri va ko'z salomatligi uchun.",
+      "sideEffects": [
+        "Bosh og'rig'i"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Levomekol",
+      "category": "Jarohat va surtmalar",
+      "form": "Surtma",
+      "manufacturer": "Nizhpharm",
+      "price": 19000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Yiringli jarohatlarni davolaydi va mikroblarni o'ldiradi.",
+      "sideEffects": [
+        "Terida achishish"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Pantenol",
+      "category": "Jarohat va kuydirishga qarshi",
+      "form": "Sprey / Surtma",
+      "manufacturer": "Chauvin",
+      "price": 38000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Kuyish va terining shikastlanishlarida to'qimalarni qayta tiklaydi.",
+      "sideEffects": [
+        "Kamdan-kam allergik reaksiya"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Ketanov (Ketorolakt)",
+      "category": "Kuchli og'riq qoldiruvchi",
+      "form": "Tabletka (10 mg)",
+      "manufacturer": "Ranbaxy",
+      "price": 21000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Operatsiyadan keyingi va o'tkir kuchli og'riqlarni qoldiradi.",
+      "sideEffects": [
+        "Oshqozon og'rig'i",
+        "Uyquchanlik"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Nimesil (Nimesulid)",
+      "category": "Og'riq va yallig'lanishga qarshi",
+      "form": "Poroshok (paketik)",
+      "manufacturer": "Berlin-Chemie",
+      "price": 50000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Bo'g'im, tish va boshqa o'tkir og'riqlarni tezda qoldiradi.",
+      "sideEffects": [
+        "Jigar faoliyatiga ta'sir (uzoq qabul qilganda)"
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Spazmalgon",
+      "category": "Spazmolitik va og'riq qoldiruvchi",
+      "form": "Tabletka",
+      "manufacturer": "Sopharma",
+      "price": 23000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Ichki a'zolar spazmi va og'riqlarida samarali vosita.",
+      "sideEffects": [
+        "Qon bosimi tushib ketishi"
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Teraflu",
+      "category": "Gripp va shamollashga qarshi",
+      "form": "Poroshok (paketik)",
+      "manufacturer": "GSK",
+      "price": 60000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Gripp va shamollash belgilari (harorat, burun bitishi, og'riq)ni yengillashtiradi.",
+      "sideEffects": [
+        "Uyquchanlik",
+        "Og'iz qurishi"
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Fervesh",
+      "category": "Gripp va shamollashga qarshi",
+      "form": "Poroshok (paketik)",
+      "manufacturer": "UPSA",
+      "price": 58000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Shamollash simptomlarini bartaraf etuvchi vitaminli majmua.",
+      "sideEffects": [
+        "Allergik reaksiyalar"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Azitromitsin",
+      "category": "Antibiotik",
+      "form": "Kapsula (500 mg)",
+      "manufacturer": "Zentiva",
+      "price": 30000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Nafas yo'llari va boshqa infeksiyalarda ishlatiladigan 3 kunlik antibiotik.",
+      "sideEffects": [
+        "Ko'ngil aynishi",
+        "Qorin og'rig'i"
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Seftriakson",
+      "category": "Antibiotik",
+      "form": "Ukol uchun kukun (1g)",
+      "manufacturer": "Biosintez",
+      "price": 12000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Keng ta'sir doirasiga ega ukol antibiotik.",
+      "sideEffects": [
+        "In'eksiya joyida og'riq",
+        "Allergiya"
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Klotrimazol",
+      "category": "Zamburug'ga qarshi",
+      "form": "Surtma",
+      "manufacturer": "Glaxo",
+      "price": 15000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Teri zamburug'li kasalliklarini davolash uchun surtma.",
+      "sideEffects": [
+        "Qichishish",
+        "Qizarish"
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Flukonazol",
+      "category": "Zamburug'ga qarshi",
+      "form": "Kapsula (150 mg)",
+      "manufacturer": "Ozon",
+      "price": 10000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Kandidoz va boshqa zamburug'li infeksiyalarga qarshi.",
+      "sideEffects": [
+        "Bosh og'rig'i"
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Oftagel",
+      "category": "Ko'z tomchisi",
+      "form": "Ko'z geli",
+      "manufacturer": "Santen",
+      "price": 41000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Quruq ko'z sindromida ko'z yosh o'rnini bosuvchi preparat.",
+      "sideEffects": [
+        "Vaqtincha ko'rish xiralashishi"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Tobreks",
+      "category": "Ko'z tomchisi",
+      "form": "Tomchi 0.3%",
+      "manufacturer": "Novartis",
+      "price": 49000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Ko'z infeksiyalari va konyunktivitni davolash uchun antibiotikli tomchi.",
+      "sideEffects": [
+        "Ko'zda achishish"
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Lineks",
+      "category": "Probiotik",
+      "form": "Kapsula",
+      "manufacturer": "Sandoz",
+      "price": 54000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Ichak mikroflorasini tiklaydi va disbakteriozda yordam beradi.",
+      "sideEffects": [
+        "Juda kam hollarda allergiya"
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Hilak Forte",
+      "category": "Probiotik",
+      "form": "Tomchi",
+      "manufacturer": "Ratiopharm",
+      "price": 47000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Ichak muhitini normallashtiradi va modda almashinuvini yaxshilaydi.",
+      "sideEffects": [
+        "Diareya (doza oshganda)"
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Gepatrin",
+      "category": "Gepatoprotektor",
+      "form": "Kapsula",
+      "manufacturer": "Evalar",
+      "price": 68000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Jigar hujayralarini himoya qiladi va ularni tiklashga yordam beradi.",
+      "sideEffects": [
+        "Individual ko'tara olmaslik"
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Detsiferol (D3 Vitamini)",
+      "category": "Vitaminlar",
+      "form": "Kapsula (2000 IU)",
+      "manufacturer": "Polpharma",
+      "price": 45000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Suyuq kapsuladagi D3 vitamini, suyaklar va immunitetni mustahkamlaydi.",
+      "sideEffects": [
+        "Giperkaltsemiya (doza oshganda)"
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Kardiomagnil Forte",
+      "category": "Yurak-qon tomir",
+      "form": "Tabletka (150 mg)",
+      "manufacturer": "Takeda",
+      "price": 48000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Yurak ishemik kasalliklari va tromb profilaktikasi uchun oshirilgan doza.",
+      "sideEffects": [
+        "Jig'ildidon qaynashi",
+        "Ko'ngil aynishi"
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Ketanov Gel",
+      "category": "Og'riq va yallig'lanishga qarshi",
+      "form": "Gel 2%",
+      "manufacturer": "Ranbaxy",
+      "price": 34000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Mushak va bo'g'imlardagi mahalliy og'riqlarni qoldiruvchi gel.",
+      "sideEffects": [
+        "Terida qizarish va qichishish"
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Mukaltin Forte",
+      "category": "Balg'am ko'chiruvchi",
+      "form": "Tabletka (100 mg)",
+      "manufacturer": "UzPharm",
+      "price": 7000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Kuchaytirilgan balg'am yumshatuvchi o'simlik preparati.",
+      "sideEffects": [
+        "Allergik toshmalar"
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Nurofen (Ibuprofen)",
+      "category": "Og'riq qoldiruvchi va isitma tushiruvchi",
+      "form": "Express Kapsula (200 mg)",
+      "manufacturer": "Reckitt Benckiser",
+      "price": 29000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop",
+      "description": "Tez ta'sir qiluvchi og'riq qoldiruvchi va isitma tushiruvchi kapsula.",
+      "sideEffects": [
+        "Oshqozonda achishish"
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Aspirin C",
+      "category": "Gripp va shamollashga qarshi",
+      "form": "Shildiroq tabletka",
+      "manufacturer": "Bayer",
+      "price": 35000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Asetilsalitsil kislotasi va C vitamini birikmasi, shamollash belgilari uchun.",
+      "sideEffects": [
+        "Oshqozon shilliq qavati ta'sirlanishi"
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Fastum Gel",
+      "category": "Og'riq va yallig'lanishga qarshi",
+      "form": "Gel 2.5%",
+      "manufacturer": "Menarini",
+      "price": 43000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890533?w=500&auto=format&fit=crop",
+      "description": "Ketoprofen asosidagi gel, pay va bo'g'im shikastlanishlarida og'riqni qoldiradi.",
+      "sideEffects": [
+        "Fotosensibilizatsiya",
+        "Terida shamollash"
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Karbamatsepin",
+      "category": "Tinchlantiruvchi va tutqanoqqa qarshi",
+      "form": "Tabletka (200 mg)",
+      "manufacturer": "Novartis",
+      "price": 31000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Asab og'riqlari (nevralgiya) va tutqanoq kasalliklarida qo'llaniladi.",
+      "sideEffects": [
+        "Uyquchanlik",
+        "Bosh aylanishi",
+        "Ko'rish buzilishi"
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Regidron",
+      "category": "Rechidratatsiya",
+      "form": "Poroshok (paketik)",
+      "manufacturer": "Orion Corp",
+      "price": 8000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Ich ketishi va qusishda tana tuz-suv muvozanatini tiklovchi eritma kukun.",
+      "sideEffects": [
+        "Nafas yetishmasligi (doza juda oshganda)"
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Festal",
+      "category": "Fermentlar",
+      "form": "Drajje",
+      "manufacturer": "Sanofi",
+      "price": 26000,
+      "inStock": true,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop",
+      "description": "Og'ir ovqatlardan keyin hazm qilishni osonlashtiruvchi kombinatsiyalangan ferment.",
+      "sideEffects": [
+        "Ko'ngil aynishi",
+        "Diareya"
+      ]
+    },
+    {
+      "name": "Kupen",
+      "category": "Og'riq qoldiruvchi",
+      "price": 2000,
+      "image": "https://oxymed.uz/storage/resize_cache/500_500_no_crop___/product_images_v2/87772_1.png",
+      "id": "cW-FsyOs7AA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

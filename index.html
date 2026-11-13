@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surya Nursing Home & Pharmacy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="welcome-banner" id="welcomeBanner"></div>
+
+    <!-- Header -->
+    <header class="main-header">
+      <div class="navbar-container">
+        <h3 class="logo">🏥 Surya Nursing</h3>
+        <input type="text" class="search-box" placeholder="Dorilarni qidirish..." />
+        <nav class="header-nav">
+          <ul>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="#pharmacy">Pharmacy</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <div class="cart-info">🛒 Savat: <span id="cartCount">0</span></div>
+          <button class="btn-login">Login / Sign-Up</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="header-doctor">
+          <div class="header-consalt">
+            <span class="badge">24/7 Online Support</span>
+            <h3>Skip the travel! Take Online</h3>
+            <h1>Doctor Consultation</h1>
+            <p>
+              Connect instantly with a 24x7 specialist or choose to video visit
+              a particular doctor right from your home.
+            </p>
+            <button class="btn-consult">Consult Now</button>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./assets/swipper1.png" alt="banner 1" loading="lazy" /></div>
+            <div class="swiper-slide"><img src="./assets/swipper2.png" alt="banner 2" loading="lazy" /></div>
+            <div class="swiper-slide"><img src="./assets/swipper3.png" alt="banner 3" loading="lazy" /></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistika -->
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat"><strong>15+</strong><span>yillik tajriba</span></div>
+        <div class="stat"><strong>40+</strong><span>malakali shifokor</span></div>
+        <div class="stat"><strong>12 000+</strong><span>mamnun bemor</span></div>
+        <div class="stat"><strong>24/7</strong><span>doimiy xizmat</span></div>
+      </div>
+    </section>
+
+    <!-- Xizmatlar -->
+    <section class="section" id="services">
+      <div class="section-head">
+        <h2>Bizning xizmatlar</h2>
+        <p>Bitta joyda to'liq tibbiy yordam: tekshiruvdan davolanishgacha.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">🩺</div>
+          <h3>Umumiy ko'rik</h3>
+          <p>Terapevt qabuli, qon bosimi, yurak va o'pka tekshiruvi.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🧪</div>
+          <h3>Laboratoriya</h3>
+          <p>Qon, siydik va boshqa tahlillar. Natija shu kuni tayyor.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🩻</div>
+          <h3>UZI va rentgen</h3>
+          <p>Zamonaviy uskunalarda aniq tashxis.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🛏️</div>
+          <h3>Statsionar</h3>
+          <p>Qulay palatalar va hamshiralar nazorati 24 soat davomida.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🚑</div>
+          <h3>Tez yordam</h3>
+          <p>Shoshilinch holatlarda uyingizga chaqiruv.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">💻</div>
+          <h3>Onlayn konsultatsiya</h3>
+          <p>Video orqali shifokor bilan maslahat, uydan chiqmasdan.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PHARMACY (existing medicines) -->
+    <section class="medicine-section" id="pharmacy">
+      <div class="section-head row">
+        <h2>Dorilar ro'yxati</h2>
+        <button class="seeAll">See All</button>
+      </div>
+      <div class="medicine-container" id="medicineContainer"></div>
+    </section>
+
+    <!-- Catarogiyalar -->
+    <section class="section alt">
+      <div class="section-head">
+        <h2>Dorixona kategoriyalari</h2>
+        <p>Kerakli dorini tez toping.</p>
+      </div>
+      <div class="category-grid">
+        <a href="#pharmacy" class="category">💊 Og'riq qoldiruvchi</a>
+        <a href="#pharmacy" class="category">🤧 Shamollash va gripp</a>
+        <a href="#pharmacy" class="category">🍊 Vitaminlar</a>
+        <a href="#pharmacy" class="category">❤️ Yurak va bosim</a>
+        <a href="#pharmacy" class="category">🧴 Teri parvarishi</a>
+        <a href="#pharmacy" class="category">👶 Bolalar uchun</a>
+      </div>
+    </section>
+
+    <!-- DOCTORS -->
+    <section class="section" id="doctors">
+      <div class="section-head">
+        <h2>Bizning shifokorlar</h2>
+        <p>Tajribali mutaxassislar sizning sog'ligingiz uchun ishlaydi.</p>
+      </div>
+      <div class="doctors-grid">
+        <article class="doctor-card">
+          <div class="avatar">👨‍⚕️</div>
+          <h3>Dr. Akmal Karimov</h3>
+          <span class="spec">Kardiolog</span>
+          <p>18 yillik tajriba</p>
+          <button class="btn-outline">Qabulga yozilish</button>
+        </article>
+        <article class="doctor-card">
+          <div class="avatar">👩‍⚕️</div>
+          <h3>Dr. Dilnoza Yusupova</h3>
+          <span class="spec">Pediatr</span>
+          <p>12 yillik tajriba</p>
+          <button class="btn-outline">Qabulga yozilish</button>
+        </article>
+        <article class="doctor-card">
+          <div class="avatar">👨‍⚕️</div>
+          <h3>Dr. Bobur Rahimov</h3>
+          <span class="spec">Nevrolog</span>
+          <p>15 yillik tajriba</p>
+          <button class="btn-outline">Qabulga yozilish</button>
+        </article>
+        <article class="doctor-card">
+          <div class="avatar">👩‍⚕️</div>
+          <h3>Dr. Malika Saidova</h3>
+          <span class="spec">Ginekolog</span>
+          <p>10 yillik tajriba</p>
+          <button class="btn-outline">Qabulga yozilish</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Royxatdan otish -->
+    <section class="section alt">
+      <div class="section-head">
+        <h2>Onlayn konsultatsiya qanday ishlaydi</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Ro'yxatdan o'ting</h3><p>Telefon raqamingiz bilan hisob yarating.</p></li>
+        <li><h3>Shifokorni tanlang</h3><p>Mutaxassislikni va qulay vaqtni belgilang.</p></li>
+        <li><h3>Video qo'ng'iroq</h3><p>Shifokor bilan uydan turib gaplashing.</p></li>
+        <li><h3>Retsept oling</h3><p>Dorilarni shu saytdan buyurtma qiling.</p></li>
+      </ol>
+    </section>
+
+    <!-- Fikrlar -->
+    <section class="section">
+      <div class="section-head">
+        <h2>Bemorlarimiz fikri</h2>
+      </div>
+      <div class="reviews-grid">
+        <blockquote class="review">
+          <p>Onamni kechasi olib keldik, hamshiralar juda e'tiborli bo'lishdi. Rahmat!</p>
+          <footer>Sherzod T.</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>Onlayn konsultatsiya qulay bo'ldi, retseptni shu zahoti oldim.</p>
+          <footer>Nigora A.</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>Dorixonada kerakli dori doim topiladi, narxlar ham hamyonbop.</p>
+          <footer>Jasur M.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Savolla va JAvablar -->
+    <section class="section alt">
+      <div class="section-head">
+        <h2>Ko'p so'raladigan savollar</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Qabulga oldindan yozilish shartmi?</summary>
+          <p>Shart emas, lekin navbatsiz qabul uchun oldindan yozilishni tavsiya qilamiz.</p>
+        </details>
+        <details>
+          <summary>Dorilarni uyga yetkazib berasizlarmi?</summary>
+          <p>Ha, shahar ichida buyurtma berilgan kuni yetkazib beramiz.</p>
+        </details>
+        <details>
+          <summary>Tez yordam qaysi vaqtda ishlaydi?</summary>
+          <p>Kecha-kunduz, dam olish va bayram kunlarida ham.</p>
+        </details>
+        <details>
+          <summary>Qanday to'lov turlari mavjud?</summary>
+          <p>Naqd pul, bank kartasi va mobil to'lov ilovalari.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <h2>Biz bilan bog'laning</h2>
+          <p>📍 Namangan, Toraqorgon tumani</p>
+          <p>📞 +998 88 587 00 81</p>
+          <p>✉️ info@surya.uz</p>
+          <p>🕘 Dushanba–Yakshanba: 24/7</p>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Rahmat! Tez orada siz bilan bog\'lanamiz.');">
+          <input type="text" placeholder="Ismingiz" required />
+          <input type="tel" placeholder="Telefon raqamingiz" required />
+          <select required>
+            <option value="">Mutaxassisni tanlang</option>
+            <option>Kardiolog</option>
+            <option>Pediatr</option>
+            <option>Nevrolog</option>
+            <option>Ginekolog</option>
+          </select>
+          <textarea rows="4" placeholder="Xabaringiz"></textarea>
+          <button type="submit" class="btn-consult">Yuborish</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <h4>🏥 Surya Nursing</h4>
+          <p>Sog'lig'ingiz uchun ishonchli hamkor.</p>
+        </div>
+        <div>
+          <h4>Bo'limlar</h4>
+          <a href="#services">Xizmatlar</a>
+          <a href="#pharmacy">Dorixona</a>
+          <a href="#doctors">Shifokorlar</a>
+        </div>
+        <div>
+          <h4>Aloqa</h4>
+          <a href="tel:+998885870081"><p>+998 88 587 00 81</p></a>
+          <p>info@surya.uz</p>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 Surya Nursing Home. All rights reserved.</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

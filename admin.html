@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel - Surya Nursing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="amdin.css" />
+  </head>
+  <body>
+    <header class="admin-header">
+      <h3>⚙️ Admin Panel</h3>
+      <a href="./index.html">← Asosiy saytga qaytish</a>
+    </header>
+
+    <div class="container">
+
+      <div class="form-card">
+        <h2 id="formTitle">Yangi dori qo'shish</h2>
+        <form id="medicineForm">
+          <input type="hidden" id="medId" />
+          <div class="form-group">
+            <label>Dori nomi</label>
+            <input type="text" id="medName" placeholder="Masalan: Paratsetamol" required />
+          </div>
+          <div class="form-group">
+            <label>Kategoriyasi</label>
+            <select id="medCategory" required>
+              <option value="Og'riq qoldiruvchi">Og'riq qoldiruvchi</option>
+              <option value="Vitaminlar">Vitaminlar</option>
+              <option value="Antibiotik">Antibiotik</option>
+              <option value="Shamollashga qarshi">Shamollashga qarshi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Narxi (so'mda)</label>
+            <input type="number" id="medPrice" placeholder="15000" required />
+          </div>
+          <div class="form-group">
+            <label>Rasm havolasi (URL)</label>
+            <input type="text" id="medImage" placeholder="https://..." required />
+          </div>
+          <button type="submit" class="btn-submit" id="submitBtn">Saqlash</button>
+        </form>
+      </div>
+
+      <!-- Dorilar ro'yxati jadvali -->
+      <div class="table-card">
+        <h2>Mavjud dorilar ro'yxati</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rasm</th>
+              <th>Nomi</th>
+              <th>Kategoriya</th>
+              <th>Narxi</th>
+              <th>Amallar</th>
+            </tr>
+          </thead>
+          <tbody id="adminTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>
