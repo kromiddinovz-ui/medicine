@@ -1,4 +1,4 @@
-/* ===== UMUMIY ===== */
+/* Umumiy */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -31,7 +31,7 @@ img {
   display: block;
 }
 
-/* ===== BO'LIM SARLAVHALARI ===== */
+/* Sarlavhalar */
 .section {
   max-width: 1200px;
   margin: 0 auto;
@@ -69,7 +69,7 @@ img {
   align-items: center;
 }
 
-/* ===== KIRISH XABARI ===== */
+/* Xabar */
 .welcome-banner:empty {
   display: none;
 }
@@ -82,7 +82,7 @@ img {
   font-size: 14px;
 }
 
-/* ===== HEADER ===== */
+/* Header */
 .main-header {
   position: sticky;
   top: 0;
@@ -154,7 +154,7 @@ img {
   background: #0b5a54;
 }
 
-/* ===== HERO ===== */
+/* Hero */
 .hero-section {
   background: #f0f7f6;
   padding: 50px 20px;
@@ -216,7 +216,7 @@ img {
   transform: translateY(-2px);
 }
 
-/* ===== SLAYDER ===== */
+/* Swiper*/
 .mySwiper {
   width: 100%;
   border-radius: 14px;
@@ -229,7 +229,7 @@ img {
   object-fit: cover;
 }
 
-/* ===== STATISTIKA ===== */
+/* Statistika */
 .stats-section {
   background: #0f766e;
   color: #ffffff;
@@ -255,7 +255,7 @@ img {
   opacity: 0.85;
 }
 
-/* ===== XIZMATLAR ===== */
+/* Xizmatlar */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -288,7 +288,7 @@ img {
   font-size: 14px;
 }
 
-/* ===== DORILAR ===== */
+/* Dorilar */
 .medicine-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -317,7 +317,6 @@ img {
   gap: 22px;
 }
 
-/* Har bir dori kartasi */
 .medicine-container > * {
   display: flex;
   flex-direction: column;
@@ -328,7 +327,6 @@ img {
   padding: 16px;
 }
 
-/* Barcha rasmlar bir xil o'lchamda */
 .medicine-container img {
   width: 100%;
   height: 190px;
@@ -345,7 +343,6 @@ img {
   color: #6b7280;
 }
 
-/* Tugmalar */
 .medicine-container button {
   background: #0f766e;
   color: #ffffff;
@@ -361,13 +358,11 @@ img {
   background: #0b5a54;
 }
 
-/* Birinchi tugma kartaning pastiga tushadi,
-   shunda barcha kartalarda tugmalar bir tekis turadi */
 .medicine-container button:first-of-type {
   margin-top: auto;
 }
 
-/* ===== KATEGORIYALAR ===== */
+/* Kategoriyalar */
 .category-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -388,7 +383,7 @@ img {
   color: #ffffff;
 }
 
-/* ===== SHIFOKORLAR ===== */
+/* Shifokorlar */
 .doctors-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -442,7 +437,7 @@ img {
   color: #ffffff;
 }
 
-/* ===== QADAMLAR ===== */
+/* Qadamlar */
 .steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -476,7 +471,7 @@ img {
   font-size: 14px;
 }
 
-/* ===== SHARHLAR ===== */
+/* Comentlar */
 .reviews-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -496,7 +491,7 @@ img {
   color: #0f766e;
 }
 
-/* ===== SAVOL-JAVOB ===== */
+/* Savol Javoblar */
 .faq {
   display: grid;
   gap: 12px;
@@ -520,7 +515,7 @@ img {
   margin-top: 8px;
 }
 
-/* ===== BOG'LANISH ===== */
+/* Contact */
 .contact-wrap {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -556,7 +551,7 @@ img {
   justify-self: start;
 }
 
-/* ===== FOOTER ===== */
+/* Footer */
 .site-footer {
   background: #0b2f2c;
   color: #cfe3e0;
@@ -592,7 +587,7 @@ img {
   font-size: 14px;
 }
 
-/* ===== PLANSHET ===== */
+/* Planshet */
 @media (max-width: 992px) {
   .hero-content {
     grid-template-columns: 1fr;
@@ -611,7 +606,7 @@ img {
   }
 }
 
-/* ===== TELEFON ===== */
+/* Telefon */
 @media (max-width: 640px) {
   .header-nav {
     display: none;
